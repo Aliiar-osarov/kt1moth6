@@ -1,0 +1,89 @@
+# Окружение
+.env
+.env.local
+.env.*.local
+*.env
+!example.env
+
+# База данных
+db.sqlite3
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Статические файлы и медиа
+/back_static/
+/back_media/
+/static/
+/staticfiles/
+/media/
+*.log
+
+# Кэш
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets и конфигурация
+secrets.json
+config.local.py
+local_settings.py
+
+# Тестовые файлы
+.tox/
+.hypothesis/
+
+# IDE временные файлы
+*.tmp
+.idea/
+# Игнорируем содержимое папок миграций, кроме Python-миграций
+**/migrations/*
+!**/migrations/__init__.py
+!**/migrations/0*.py
